@@ -48,4 +48,3 @@ if __name__ == "__main__":
     print(mem_address(frth_dict))
     for key, value in frth_dict.items():
         print(f"{key}({mem_address(key)}):{value}({mem_address(value)})")
-    import pdb; pdb.set_trace()
